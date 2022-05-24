@@ -41,20 +41,9 @@ public class Ifelse {
 //		for (long l : l1) {
 //			System.out.println(l);
 //		}
-		int[] numbers = new int[9];
-		System.out.println(numbers.length);
+		int[] numbers = new int[] {10,46,23,28,13,69,128,385,839};
 
-		numbers[0] = 10;
-		numbers[1] = 46;
-		numbers[2] = 23;
-		numbers[3] = 28;
-		numbers[4] = 13;
-		numbers[5] = 69;
-		numbers[6] = 128;
-		numbers[7] = 385;
-		numbers[8] = 839;
-
-		int big = 0;
+		int big = numbers[0];
 		for (int n : numbers) {
 			if (n > big) {
 				big = n;
