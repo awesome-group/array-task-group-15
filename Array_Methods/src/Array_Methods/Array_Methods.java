@@ -15,7 +15,13 @@ public class Array_Methods {
 		System.out.println(Arrays.toString(Arrays.copyOfRange(arr2, 1, 5)));
 		System.out.println(Arrays.equals(arr, arr2));
 		Arrays.fill(arr, 10);
-
+		for(int i =0;i<arr.length;i++) {
+			arr3[i]=arr[i];
+		}
+		for(int i:arr3) {
+			System.out.println(i+" ");
+		}
+		
 	}
 
 }
