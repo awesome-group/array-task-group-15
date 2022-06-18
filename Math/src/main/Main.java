@@ -2,11 +2,14 @@ package main;
 
 import static java.lang.Math.*;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
-		double a=9.9;
-		int b=5;
+		Scanner sc= new Scanner(System.in);
+		double a=sc.nextInt();
+		int b=sc.nextInt();
 		
 		double pow = pow(4, 7);
 		double sqrt = sqrt(25);
