@@ -5,20 +5,22 @@ import static java.lang.Math.*;
 public class Main {
 
 	public static void main(String[] args) {
-
-		double pow = pow(5, 4);
-		double sqrt = sqrt(81);
-		double abs = abs(-169.53);
-		double floor = floor(3.99);
-		double ceil = ceil(5.01);
-		double round = round(129.43);
+		double a=9.9;
+		int b=5;
+		
+		double pow = pow(4, 7);
+		double sqrt = sqrt(25);
+		double abs = abs(-129.3);
+		double floor = floor(76.9);
+		double ceil = ceil(76.02);
+		double round = round(32.49);
 		int random = (int) (random() * 10) + 1;
-		System.out.println(pow(4, 7));
-		System.out.println(sqrt(49));
-		System.out.println(abs(-196.6));
-		System.out.println(floor(12.99));
-		System.out.println(ceil(16.03));
-		System.out.println(round(95.46));
+		System.out.println(pow(a, b));
+		System.out.println(sqrt(a));
+		System.out.println(abs(-a));
+		System.out.println(floor(a));
+		System.out.println(ceil(a));
+		System.out.println(round(a));
 		System.out.println((int) (random() * 10) + 1);
 		System.out.println(PI);
 		System.out.println(E);
